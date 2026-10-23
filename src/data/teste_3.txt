@@ -1,0 +1,8 @@
+# Apaga todos os simbolos da entrada
+fita 101001
+init q0
+accept qf
+
+q0,0,q0,_,>
+q0,1,q0,_,>
+q0,_,qf,_,S

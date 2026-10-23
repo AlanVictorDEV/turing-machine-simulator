@@ -1,0 +1,13 @@
+# Aceita palavras binárias terminadas em 1
+fita 1011
+init qi
+accept qf
+
+qi,0,q0,0,>
+qi,1,q1,1,>
+q0,0,q0,0,>
+q0,1,q1,1,>
+q1,0,q0,0,>
+q1,1,q1,1,>
+q1,_,qf,_,S
+q0,_,qr,_,S

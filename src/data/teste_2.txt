@@ -1,0 +1,11 @@
+# Soma 1 ao numero binario
+fita 1011
+init qright
+accept qf
+
+qright,0,qright,0,>
+qright,1,qright,1,>
+qright,_,qcarry,_,<
+qcarry,1,qcarry,0,<
+qcarry,0,qf,1,<
+qcarry,_,qf,1,<
